@@ -27,8 +27,13 @@ body {
 	background-color: white;
 }
 
+.bold {
+    color: rgb(120, 6, 19);
+    font-weight: bold;
+}
 /* ************************ */
 
+/******----------------------------****** MENU ******----------------------------******/
 #menu {
 	float: right;
   	font-size: 12px; 
@@ -370,7 +375,7 @@ body {
 .content_wrapper {
 	background-color: white;
 	margin-top: 50px;
-	padding: 50px 0px;
+    padding: 50px 0px;
 }
 
 #group_photo {
@@ -454,6 +459,8 @@ body {
 	float: left;
 	margin-left: 30px;
 }
+
+/******----------------------------****** FOOTER ******----------------------------******/
 
 .footer {
 	/*background-color: rgb(75, 2, 6);*/
