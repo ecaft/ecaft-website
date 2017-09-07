@@ -17,8 +17,8 @@ include 'header.html';
 
 <div class="content_wrapper">
 	<div class="reg_wrapper">
-		<div id="reg_link">Join us on February 8, 2017 for the Spring Technical &amp; Entrepreneurial Career Fair</div>
- 		<div id="reg_link">All Companies Register <a href="https://app.joinhandshake.com/career_fairs/1148/employer_preview?token=_0ybhzsEkvOOdaqsKmieL5zVc72f1qK3PzAS7kC5mW5ge9xTxeSEoA" target="_blank">here</a>!</div>
+		<div id="reg_link">Join us on February 7, 2017 for the Spring Technical &amp; Entrepreneurial Career Fair</div>
+ 		<div id="reg_link">All Companies Register <a href="https://app.joinhandshake.com/career_fairs/3329/employer_preview" target="_blank">here</a>!</div>
  		<!-- <div id="reg_link"><a>Startups Registration Coming Soon!</a></div> -->
 		<div class="sec_title">Early Bird Registration Incentive</div>
 		<div class="last_par">
