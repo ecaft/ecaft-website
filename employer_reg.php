@@ -17,13 +17,13 @@ include 'header.html';
 
 <div class="content_wrapper">
 	<div class="reg_wrapper">
-		<div id="reg_link">Join us on February 7, 2017 for the Spring Technical &amp; Entrepreneurial Career Fair</div>
+		<div id="reg_link">Join us on February 7, 2018 for the Spring Technical &amp; Entrepreneurial Career Fair</div>
  		<div id="reg_link">All Companies Register <a href="https://app.joinhandshake.com/career_fairs/3329/employer_preview" target="_blank">here</a>!</div>
  		<!-- <div id="reg_link"><a>Startups Registration Coming Soon!</a></div> -->
 		<div class="sec_title">Early Bird Registration Incentive</div>
 		<div class="last_par">
-		Register by November 30, 2016, and receive a $50 discount off total registration. The discount will appear on invoice only.</br>
-		<span class="italic"><span class="bold">NOTE:</span> The registration page will close on January 31, 2017. After this date, please contact <a href="mailto:eng-recruiting@cornell.edu" class="link">eng-recruiting@cornell.edu</a>
+		Register by November 30, 2017, and receive a $50 discount off total registration. The discount will appear on invoice only.</br>
+		<span class="italic"><span class="bold">NOTE:</span> The registration page will close on January 31, 2018. After this date, please contact <a href="mailto:eng-recruiting@cornell.edu" class="link">eng-recruiting@cornell.edu</a>
 		to make a late registration. Late registration is not guaranteed.</span>
 		</div> 
 	

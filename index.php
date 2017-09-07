@@ -6,7 +6,7 @@ include 'header.html';
 
 	<div class="welcome">
 		<div id="join_us">JOIN US</div>
-		on February 7, 2017 for the </br>
+		on February 7, 2018 for the </br>
 		Spring Technical &amp; Entrepreuneurial Career Fair </br>
 		<div onclick="window.open('https://app.joinhandshake.com/career_fairs/3329/employer_preview', 'mywindow');" id="register" style="width: 200px"><a>All Companies Register Here!</a></div>
 		<!-- <div id="register" style="float: right; margin-right: 25%; width: 200px"><a>Startups Registration Coming Soon!</a></div> -->
