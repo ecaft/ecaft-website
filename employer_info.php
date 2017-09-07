@@ -182,9 +182,7 @@ include 'header.html';
        Attn: Engineering Career Fair </br>
 	</div>
 
-	<div class="par"><span class="bold">IMPORTANT NOTE:</span> Please write 2017 Spring Engineering and Technical Career Fair on all your packages. This will ensure 
-		that all packages are directed to the correct storage facility. Packages will be delivered to Barton Hall by <b>7:00am</b> the 
-		day of the fair. </div>
+	<div class="par"><span class="bold">IMPORTANT NOTE:</span>Accommodation prices reflect last year's prices and will be updated. </div>
 	
 	<div class="p_title">Return Shipping:</div>
 	<div class="last_par">UPS and FedEx will be picking up packages from Barton Hall after the fair at <b>3:30pm</b>. Please refer to the shipping company websites 
