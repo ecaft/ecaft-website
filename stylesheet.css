@@ -27,11 +27,47 @@ body {
 	background-color: white;
 }
 
+/******----------------------------****** JOIN ******----------------------------******/
+a:hover {
+    color: #9A0617;
+}
+
+.button:hover {
+    background-color: #9A0617;
+}
+
+.buttonSubtitle {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
 .bold {
     color: rgb(120, 6, 19);
     font-weight: bold;
 }
-/* ************************ */
+
+.underline.link {
+    text-decoration: underline;
+}
+
+.button {
+    padding: 20px 40px; 
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(120, 6, 19);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.list {
+    margin-bottom: 0px;
+}
 
 /******----------------------------****** MENU ******----------------------------******/
 #menu {
