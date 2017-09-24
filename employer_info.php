@@ -83,9 +83,9 @@ include 'header.html';
 	
 
 	<div class="p_title">Accommodations</div>
-		<!-- <div class="par">
-			<p>Note: This information is from last year - updated hotel rates will be avaliable by November 1, 2016.</p>
-		</div> -->
+		<div class="par">
+			<p>Note: All prices reflect those from 2017 and will be updated by September 30th.</p>
+		</div>
 		<div class="par">
 			<a class="link" href="http://www.bestwesternnewyork.com/hotels/best-western-university-inn-ithaca/" target="_blank">Best Western University Inn</a></br>
 			Best Western University Inn is located at 1020 Ellis Hollow Rd, 1.8 miles from Cornell Plantations and around 
