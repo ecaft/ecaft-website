@@ -10,7 +10,7 @@ include 'header.html';
 <div class="content_wrapper">
 	<div class="volunteer_wrapper">
         <a href="https://goo.gl/forms/wnkY8eCLjGw52T783"  target="_blank" class = "link"><div class="button">APPLY</div></a>
-        <div class = "buttonSubtitle">Our applications are due on <span class="bold">September 23rd at 11:59 PM</span>.</div>
+        <div class = "buttonSubtitle">Our applications are due on <span class="bold">September 25th at 11:59 PM</span>.</div>
         
         The Cornell Engineering Career Fair Team (ECaFT) is recruiting for the 2017-2018 school year. ECaFT is an undergraduate student-run organization dedicated to planning and executing the Spring Engineering, Technical &amp; Entrepreneurial Career Fair in February. We work year-round with Cornell's Engineering Co-op &amp; Career Services Office to recruit companies from all over the nation for this unique and large-scale networking event. 
         <br>
