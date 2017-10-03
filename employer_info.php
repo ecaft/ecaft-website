@@ -83,68 +83,37 @@ include 'header.html';
 	
 
 	<div class="p_title">Accommodations</div>
-		<div class="par">
+		<!--<div class="par">
 			<p>Note: All prices reflect those from 2017 and will be updated by September 30th.</p>
-		</div>
+		</div>-->
 		<div class="par">
 			<a class="link" href="http://www.bestwesternnewyork.com/hotels/best-western-university-inn-ithaca/" target="_blank">Best Western University Inn</a></br>
-			Best Western University Inn is located at 1020 Ellis Hollow Rd, 1.8 miles from Cornell Plantations and around 
-			2.5 miles away from all the buildings on Cornell’s central campus. The hotel offers free continental breakfast, 
-			an area shuttle to both Cornell campus and airport, and parking. There’s also a fitness center, business center, 
-			and meeting spaces. The room rate is $129 and for reservations please call 1-607-272-6100.
+			Best Western University Inn is located at 1020 Ellis Hollow Rd, 1.8 miles from Cornell Plantations and around 2.5 miles away from all the buildings on Cornell’s central campus. Rate includes a full breakfast and transportation to and from Cornell University as well to the Tompkins Regional Airport. Guests taking the Campus to Campus to Ithaca can request the driver before leaving NYC to drop them off at the Best Western. There’s also a fitness center, business center, and meeting spaces. The Career Fair Rate is $129 and for reservations please call 1-607-272-6100 before January 6th, 2017.
 		</div>
-
 		<div class="par">
-			<a class="link" href="http://www.marriott.com/hotels/travel/ithcy-courtyard-ithaca/" target="_blank">Courtyard Marriott in Ithaca</a></br>
-			Courtyard Ithaca by Marriott is located at 29 Thornwood Drive. This modern hotel is 2.6 miles away from Cornell University. There’s also a 
-			business center with workstations and printers, a meeting room, an indoor pool, a whirlpool and an exercise. Free on-site parking is 
-			available and complimentary area shuttle can be offered once an hour from 6am to 10pm upon request. They would also like to pick visitors 
-			up from Cornell campus or the airport if scheduled ahead of time. For reservations please call 1-607-330-1000 and ask for Cornell Visitor’s 
-			Rate at $145 per night. 
-        </div>
-
-		<div class="par">
-			<a class="link" href="http://hamptoninn3.hilton.com/en/hotels/new-york/hampton-inn-ithaca-ITHNYHX/index.html" target="_blank">The Hampton Inn</a></br>
-			Hampton Inn is located at 337 Elmira Rd. On Route 13, this modern hotel is a 2-minute drive from Buttermilk Falls and the 
-			surrounding state park. Cornell University is a 7-minute drive away, as is downtown Ithaca. There’s free daily hot 
-			breakfast and weekday breakfast bags to go. Parking is complimentary and they offer free shuttles to Cornell. The 
-			room rate for Cornell recruiters are $135 per room. For reservations please call 1-607-277-5500.
+			<a class="link" href="http://www.marriott.com/reservation/rateListMenu.mi" target="_blank">Courtyard Ithaca by Marriott</a></br>
+			Courtyard Ithaca by Marriott is located at 29 Thornwood Drive. This modern hotel is 2.6 miles away from Cornell University. There’s also a business center with workstations and printers, a meeting room, an indoor pool, a whirlpool and an exercise. Free on-site parking is available and complimentary area shuttle can be offered once an hour from 6am to 10pm upon request. They would also like to pick visitors up from Cornell campus or the airport if scheduled ahead of time. For reservations please call 1-607-330-1000 and ask for Cornell’s Rate at $127 per night. Cornell’s Rate may or may not be available based on the date you make the reservation, so please make reservations as soon as possible. 
 		</div>
-
 		<div class="par">
-			<a class="link" href="http://www.hiltongardeninn.com/en/gi/hotels/index.jhtml?ctyhocn=ITHIGGI" target="_blank">Hilton Garden Inn</a></br>
-			Hilton Garden Inn is located at 130 E Seneca St, a 2-minute walk from Ithaca Commons and under a mile away from Cornell University. 
-			Additional amenities include fitness center, indoor pool, whirlpool, meeting rooms and business center. They offer free shuttles to 
-			Cornell campus and the airport every 15 to 30 minutes based on availability, which need to be scheduled ahead of time. Room rates are 
-			$159 for reservation for two nights and $169 for one night. Rates may change based on availability so please reserve early. 
-			For reservations, please call 1-607-277-8900.
-	 	</div>
-
-	 	<div class="par">
-	 		<a class="link" href="http://www.ithaca.homewoodsuites.com/" target="_blank">Homewood Suites by Hilton</a></br>
-	 		Homewood Suites is located at 36 Cinema Dr. This hotel off State Route 13 is 1.2 miles from Cornell University. 
-	 		A free hot breakfast is provided daily, as well as complimentary light dinner and drinks (Mon-Thurs). There's 
-	 		a meeting room, business center and fitness room. They offer free shuttle to Cornell campus every hour or half 
-	 		an hour depending on availability. Room rate is $179 per room and please call 1-607-266-0000 to make reservations.
+			<a class="link" href="https://secure3.hilton.com/en_US/gi/reservation/book.htm?execution=e1s1" target="_blank">Hilton Garden Inn</a></br>
+			Hilton Garden Inn is located at 130 E Seneca St, a 2-minute walk from Ithaca Commons and under a mile away from Cornell University. Additional amenities include fitness center, indoor pool, whirlpool, meeting rooms and business center. They offer free shuttles to Cornell campus and the airport every 15 to 30 minutes based on availability, which need to be scheduled ahead of time. Room rates are $169 per night. Rates may change based on availability so please reserve early. For reservations, please call 1-607-277-8900.
 		</div>
-
 		<div class="par">
-			<a class="link" href="http://www.statlerhotel.cornell.edu/" target="_blank">The Statler Hotel</a></br>
-			Statler Hotel is located at 130 Statler Dr, right in the middle of Cornell campus, only a 3-minute walk to Barton Hall, 
-			where we’re holding the career fair. There’s an Italian restaurant, 2 casual eateries and a bar. Other amenities include 
-			a fitness center, computer stations and business services, plus a free airport shuttle. For reservation please call 
-			1-800-541-2501 for Cornell Recruiter’s Rate at $275 for each standard room.
-		</div>
-
+			<a class="link" href="https://secure3.hilton.com/en_US/hw/reservation/book.htm?execution=e2s1" target="_blank">Homewood Suites</a></br>
+			Homewood Suites is located at 36 Cinema Dr. This hotel off State Route 13 is 1.2 miles from Cornell University. A free hot breakfast is provided daily, as well as complimentary light dinner and drinks (Mon-Thurs). There's a meeting room, business center and fitness room. They offer free shuttle to Cornell campus every hour or half an hour depending on availability. The Cornell Rate is $156 per night but lower rates might be available if you ask for “Cornell Career Fair Rate” when making the reservation through sales department. Please call 1-607-266-0000 to make reservations.
+		</div>	
 		<div class="par">
-			<a class="link" href="http://millerinn.com" target="_blank">William Henry Miller Inn</a></br>
-			William Henry Miller Inn is located at 303 N Aurora St. The hotels offers free parking, a gourmet 3-course breakfast, 
-			homemade evening desserts and all-day tea and coffee. The Corporate Recruiter’s Rate is $155. Although the hotel does 
-			not offer shuttles to Cornell campus, it is only one block away from the bus station which has buses that go directly 
-			to Cornell campus. For reservations please call 1-607-256-4553.
+			<a class="link" href="http://statlerhotel.cornell.edu/" target="_blank">Statler Hotel</a></br>
+			Statler Hotel is located at 130 Statler Dr, right in the middle of Cornell campus, only a 3-minute walk to Barton Hall, where we’re holding the career fair. There’s an Italian restaurant, 2 casual eateries and a bar. Other amenities include a fitness center, computer stations and business services, plus a free airport shuttle. It is an Iconic Ithaca, NY Hotel in the Heart of the Cornell Campus that enables you to delight in upscale accommodations and first-class service from seasoned hospitality professionals and energetic students from Cornell's world-renowned School of Hotel Administration. For reservation please call 1-800-541-2501 for Cornell Recruiter’s Rate at $199 for each standard room. Reservations must be made before January 18th, 2018 to receive discounts.
 		</div>
-
-
+		<div class="par">
+			<a class="link" href="http://www.thehotelithaca.com/" target="_blank">The Hotel Ithaca</a></br>
+			The Hotel Ithaca - The Hotel Ithaca is located in downtown Ithaca minutes from Cornell University and Ithaca College and within walking distance to Ithaca Commons. The hotel offers a shuttle to Ithaca Tompkins airport, deluxe rooms and suites, an indoor heated pool and fitness center. For reservation please call (607) 272-1000 and ask for the Cornell Rate, which is $139 per night.
+		</div>
+		<div class="par">
+			<a class="link" href="http://millerinn.com/" target="_blank">William Henry Miller</a></br>
+			William Henry Miller Inn is located at 303 N Aurora St. The hotels offers free parking, a gourmet 3-course breakfast, homemade evening desserts and all-day tea and coffee. The Corporate Recruiter’s Rate is $155. Although the hotel does not offer shuttles to Cornell campus, it is only one block away from the bus station which has buses that go directly to Cornell campus. For reservations please call 1-607-256-4553.
+		</div>
 
 
 	<div class="sec_title" id="dining">Dining on Campus</div>
