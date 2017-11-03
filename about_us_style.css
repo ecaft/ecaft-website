@@ -13,16 +13,20 @@
     src: url('fonts/Biko_Light-Restricted.otf');
 }
 
-#linkedin { 
+.linkedin {
 	cursor: pointer;
 }
 
-#mail { 
+.mail {
 	cursor: pointer;
 }
 
-#profile { 
+#profile {
 	cursor: pointer;
+}
+
+.background-circle {
+  background-size: 250px;
 }
 
 .ch-item {
@@ -54,11 +58,11 @@
 	top: 20px;
 	left: 20px;
 	background: #f9f9f9 url(../images/bg.jpg);
-	box-shadow: 
-		0 0 0 20px rgba(255,255,255,0.2), 
+	box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
 
-} 
+}
 
 .ch-info{
 	width: 250px;
@@ -70,7 +74,7 @@
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-		
+
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
@@ -100,21 +104,19 @@
 	-o-transform: rotate3d(0,1,0,180deg);
 	-ms-transform: rotate3d(0,1,0,180deg);
 	transform: rotate3d(0,1,0,180deg);
-	
+
 	background: #000;
 }
 
-
-
-#team_name {
+.team_name {
 	text-align: center;
 	font-size: 30px;
-	font-family: 'BikoReg'
+	font-family: 'BikoReg';
 }
 
 #team_title {
 	text-align: center;
-	font-size: 40px; 
+	font-size: 40px;
 	font-family: 'BikoReg';
 }
 
@@ -129,8 +131,8 @@
 	height: 50px;
 	/*height: 30px*/;
 	font-family: 'Open Sans', Arial, sans-serif;
-	text-shadow: 
-		0 0 1px #fff, 
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
@@ -163,8 +165,8 @@
 }
 
 .ch-item:hover .ch-info-wrap {
-	box-shadow: 
-		0 0 0 0 rgba(255,255,255,0.8), 
+	box-shadow:
+		0 0 0 0 rgba(255,255,255,0.8),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
 }
 
