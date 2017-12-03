@@ -51,7 +51,7 @@ a:hover {
 }
 
 .button {
-    padding: 20px 40px; 
+    padding: 20px 40px;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -72,51 +72,51 @@ a:hover {
 /******----------------------------****** MENU ******----------------------------******/
 #menu {
 	float: right;
-  	font-size: 12px; 
+  	font-size: 12px;
   	font-family: 'BikoReg';
   	margin-top: 20px;
 }
 
 #menu ul, #menu li {
-	list-style: none; 
-	margin: 0; 
+	list-style: none;
+	margin: 0;
 	padding: 0;
 }
 
 #menu ul {
-	position: relative; 
-	z-index: 597; 
+	position: relative;
+	z-index: 597;
 }
 
-#menu > ul { 
-	display: inline-block; 
+#menu > ul {
+	display: inline-block;
 }
 
-#menu ul li { 
-	float: left; 
+#menu ul li {
+	float: left;
 	padding: 0px;
 	vertical-align: middle;
 	letter-spacing: 1px;
 }
 
 #menu ul li.hover, #menu ul li:hover {
-	position: relative; 
-	z-index: 599; 
+	position: relative;
+	z-index: 599;
 	cursor: default;
 }
 
 #menu ul ul {
-	visibility: hidden; 
-	position: absolute; 
-	top: 100%; 
-	left: 0; 
-	z-index: 598; 
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 598;
 	width: 100%;
-	bottom: 0; 
+	bottom: 0;
 	left: 0;
     text-transform: none;
-    min-width: 190px; 
-    margin-top: 0; 
+    min-width: 190px;
+    margin-top: 0;
 }
 
 #menu ul ul li {
@@ -124,7 +124,7 @@ a:hover {
 	position: relative;
 }
 
-#menu ul li:hover > ul { 
+#menu ul li:hover > ul {
 	visibility: visible;
 }
 
@@ -132,25 +132,25 @@ a:hover {
     color: black;
     background-color: white;
     line-height: 150%;
-    padding: 5px 20px; 
+    padding: 5px 20px;
 }
 
-#menu a { 
-	display: block; 
-	line-height: 1em; 
-	text-decoration: none; 
+#menu a {
+	display: block;
+	line-height: 1em;
+	text-decoration: none;
     color: white;
-    padding: 0 20px; 
+    padding: 0 20px;
 }
 
 #menu:after, #menu ul:after {
     content: '';
     display: block;
-    clear: both; 
+    clear: both;
 }
 
-#menu > ul > li > a { 
-	line-height: 48px;  
+#menu > ul > li > a {
+	line-height: 48px;
 }
 
 #menu ul li:hover > a {
@@ -171,14 +171,14 @@ a:hover {
 
 #menu ul li.has-sub > a:after {
     content: '+';
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 #menu ul li.last ul {
     left: auto;
-    right: 0; 
+    right: 0;
 }
- 
+
 #menu ul li.last ul ul {
     left: auto;
     right: 99.5%;
@@ -188,8 +188,8 @@ a:hover {
 
 .wrapper {
 	z-index: 1000;
-	margin: 0px auto;
-	width: 1000px;
+  margin: 0;
+    width: 100%;
 }
 
 .menu {
@@ -487,7 +487,7 @@ a:hover {
 	margin: 10px;
 }
 
-.logos { 
+.logos {
 	text-align: center;
 }
 
