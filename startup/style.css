@@ -1,0 +1,1802 @@
+/*
+Theme Name: startup
+Theme URI: http://shaptedtheme.com/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: startup
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+startup is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+html {
+	font-family: 'Roboto Slab', serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	line-height: 24px;
+	-webkit-font-smoothing: antialiased;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+a {
+	background-color: transparent;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+
+}
+
+a:active,
+a:hover {
+	outline: 0;
+	text-decoration: none;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+img {
+	border: 0;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input {
+	line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: #fff; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	quotes: "" "";
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, .8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: .6em 1em .4em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	border-color: #aaa #bbb #bbb;
+	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: 3px;
+}
+
+textarea {
+	padding-left: 3px;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: royalblue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: midnightblue;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation li {
+	float: left;
+	position: relative;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 1.5em;
+	left: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul ul li {
+
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+}
+
+.main-navigation ul ul :hover > a,
+.main-navigation ul ul .focus > a {
+}
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a.focus {
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: 100%;
+}
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a {
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets. */
+.widget select {
+	max-width: 100%;
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer {
+	/* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/*===============================================================
+	01. Custom General
+===================================================================*/
+a,
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: #c0301c;
+}
+
+a:focus {
+	outline: 0;
+}
+
+section {
+	padding-top: 97px;
+	padding-bottom: 100px;
+	height:auto;
+}
+
+.sec-subtitle {
+	margin-bottom: 60px;
+	font-size: 16px;
+}
+
+.section-title,
+.title {
+	text-transform: uppercase;
+}
+
+.section-title,
+.title-small {
+	font-size: 20px;
+}
+
+.section-title {
+	margin-top: 0;
+}
+
+.btn {
+	background: transparent;
+	box-shadow: none;
+	text-transform: uppercase;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms ;
+	-ms-transition: 300ms ;
+	-o-transition: 300ms ;
+	transition: 300ms ;
+}
+.btn:hover {
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.btn.btn-action {
+	border: 2px solid #fff;
+	color: #fff;
+	margin-top: 27px;
+	font-size: 18px;
+	padding: 10px 30px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.btn-action:hover {
+	background: #fff;
+	color: #555;
+}
+/*	===========================================================
+	2. Header Sections
+	=========================================================== */
+
+.header {
+	top: 0;
+	width: 100%;
+	position: absolute;
+	padding-top: 30px;
+	z-index: 999;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	transition: all 0.8s;
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.header.affix {
+	background: rgba(0, 0, 0, 1);
+	width: 100%;
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	z-index: 9999;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.navbar-default {
+	background: none;
+	border:none;
+	font-size: 14px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a.active {
+	color: black;
+	background-color: white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background: white;
+	color: black;
+}
+
+.navbar-toggle {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/* -------------------------------------
+	Typed js ( for blinking cursor)
+  ---------------------------------------*/
+.typed-cursor {
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/*	===========================================================
+	03. Home
+	=========================================================== */
+
+#home {
+	background-image: url(assets/images/home_bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#home .block {
+	color: #fff;
+	padding-top: 5.2%;
+}
+
+.home-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.45);
+}
+
+.home-title {
+	font-size: 48px;
+	margin-bottom: 16px;
+}
+
+/*	===========================================================
+	04. Services
+	=========================================================== */
+.service-icon {
+	font-size: 50px;
+	height: 90px;
+	width: 90px;
+	line-height: 86px;
+	border: 2px solid #ddd;
+	border-radius: 50%;
+	margin-bottom: 24px;
+	color: #c0301c;
+	-webkit-transition: 400ms;
+	-moz-transition: 400ms;
+	-ms-transition: 400ms;
+	-o-transition: 400ms;
+	transition: 400ms;
+}
+
+#services .title {
+	margin-bottom: 12px;
+}
+
+.service:hover .service-icon {
+	background: #c0301c;
+	color: #fff;
+}
+
+/*	===========================================================
+	05. About Us
+	=========================================================== */
+#about-us {
+	background: #f8f8f8;
+	padding-bottom: 75px;
+}
+
+/*Owl Carousel*/
+#owl-demo {
+	margin-top: 60px;
+}
+
+#owl-demo .item {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.owl-item {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.owl-item .item {
+}
+
+.owl-prev {
+	left: 15px;
+}
+
+.owl-next {
+	right: 15px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	border-radius: 0;
+	background: rgba(85, 85, 85, 0.2);
+	font-size: 16px;
+	padding: 7px 15px;
+	margin: 0;
+	position: absolute;
+	top: 32%;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+	background: rgb(192, 48, 28);
+}
+
+.team-thumb {
+	position: relative;
+}
+
+.team-social {
+	background: rgba(85, 85, 85, 0.25);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+.team-social ul {
+	padding-top: 174px;
+	font-size: 16px;
+}
+
+.team-social ul li {
+	height: 38px;
+	width: 38px;
+	line-height: 38px;
+	padding:0;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+.team-social ul li a {
+	color: #fff;
+	display: block;
+}
+.owl-caption h5{
+	margin-top:20px;
+	margin-bottom: 13px;
+}
+.team-social ul li:hover {
+
+	background-color: #c0301c;
+}
+
+.owl-wrapper .item:hover .team-social {
+	opacity: 1;
+}
+
+/*	===========================================================
+	06. Latest Works
+	=========================================================== */
+.works-category {
+	margin-bottom: 65px;
+}
+
+.works-category li {
+	font-size: 16px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.works-category li .current {
+	color: #C0301C;
+	text-decoration: none;
+}
+
+.works {
+	margin-top: 30px;
+	position: relative;
+}
+
+.work-overlay {
+	opacity: 0;
+	background: rgba(192, 48, 28, 0.7);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	/*to Centralize*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	-webkit-transition: 400ms;
+	-moz-transition: 400ms;
+	-ms-transition: 400ms;
+	-o-transition: 400ms;
+	transition: 400ms;
+}
+
+.overlay-caption {
+	margin: 0 auto;
+	color: #fff;
+}
+
+.overlay-caption p {
+	font-size: 12px;
+}
+
+.overlay-caption {
+	padding-top: 10px;
+	-webkit-transition: 300ms ease-in-out;
+	-moz-transition: 300ms ease-in-out;
+	-ms-transition: 300ms ease-in-out;
+	-o-transition: 300ms ease-in-out;
+	transition: 300ms ease-in-out;
+}
+
+a.btn-view {
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	padding-left: 26px;
+	font-size: 14px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #fff;
+	display: block;
+	letter-spacing: 1px;
+	-webkit-transition: 20ms;
+	-moz-transition: 20ms;
+	-ms-transition: 20ms;
+	-o-transition: 20ms;
+	transition: 20ms;
+
+}
+
+.btn-view i {
+	font-size: 17px;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+
+}
+
+.works:hover .work-overlay {
+	opacity: 1;
+}
+
+.works:hover .overlay-caption {
+	padding-top: 0px;
+	margin-bottom: 10px;
+}
+
+.btn-view:hover {
+	background: #fff;
+	color: #c0301c;
+}
+
+.btn-view:hover i {
+	padding-left: 5px;
+	opacity: 1;
+}
+
+.ch-grid {
+	margin: 20px 0 0 0;
+	/*padding: 0;*/
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 270px;
+	height: 250px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.linkedin {
+	cursor: pointer;
+}
+
+.mail {
+	cursor: pointer;
+}
+
+#profile {
+	cursor: pointer;
+}
+
+.background-circle {
+  background-size: 250px;
+}
+
+.ch-item {
+	width: 175px;
+	height: 175px;
+	/*border-radius: 50%;*/
+	/*position: relative;*/
+	/*box-shadow: 0 1px 2px rgba(0,0,0,0.1);*/
+	cursor: default;
+}
+
+.ch-info-wrap{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+	top: 20px;
+	left: 20px;
+	background: #f9f9f9 url(../images/bg.jpg);
+	box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}
+
+.ch-info{
+	width: 250px;
+	height: 250px;
+	/*border-radius: 50%;*/
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+}
+
+.ch-info > div {
+	/*display: block;*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+	margin-top:10px;
+	opacity: 0;
+	background: rgba(192, 48, 28, 0.7);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	/*to Centralize*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	-webkit-transition: 400ms;
+	-moz-transition: 400ms;
+	-ms-transition: 400ms;
+	-o-transition: 400ms;
+	transition: 400ms;
+}
+
+.ch-info .ch-info-back:hover {
+	opacity:1;
+	padding-top: 10px;
+	-webkit-transition: 300ms ease-in-out;
+	-moz-transition: 300ms ease-in-out;
+	-ms-transition: 300ms ease-in-out;
+	-o-transition: 300ms ease-in-out;
+	transition: 300ms ease-in-out;
+
+	background: #000;
+}
+
+.team_name {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'BikoReg';
+}
+
+#team_title {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'BikoReg';
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	margin: 0 15px;
+	padding: 60px 0 0 0;
+	/*padding: 20px 0 0 0;*/
+	height: 50px;
+	/*height: 30px*/;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow:
+		0 0 1px #fff,
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	/*padding: 5px 5px; */
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 14px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover .ch-info-wrap {
+	box-shadow:
+		0 0 0 0 rgba(255,255,255,0.8),
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+.ch-item:hover .ch-info {
+	padding-top: 10px;
+	-webkit-transition: 300ms ease-in-out;
+	-moz-transition: 300ms ease-in-out;
+	-ms-transition: 300ms ease-in-out;
+	-o-transition: 300ms ease-in-out;
+	transition: 300ms ease-in-out;
+}
+
+/*	===========================================================
+	07. Get In Touch
+	=========================================================== */
+#get-in-touch {
+	background: url("assets/images/action-bg1.jpg") no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	background-size: cover;
+}
+
+.action-overlay {
+	background: rgba(192, 48, 28, 0.6);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.action-title {
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	line-height: 44px;
+	margin-top: 0;
+}
+/*	===========================================================
+	08. Recent Posts
+	=========================================================== */
+.posts-area {
+	border-bottom: 1px solid #dddddd;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.posts-area:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.post-thumb {
+	padding-right: 25px;
+}
+
+.post-content {
+
+}
+
+.post-date {
+	border: 2px solid #888;
+	margin-right: 20px;
+	padding-left: 23px;
+	padding-right: 23px;
+}
+
+.post-date h1 {
+	font-size: 24px;
+	line-height: 8px;
+}
+
+.post-date p {
+	margin-bottom: 12px;
+}
+
+.post-title h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.post-title p {
+	font-size: 13px;
+}
+
+.post-body {
+	margin-top: 18px;
+}
+
+/*	===========================================================
+	09. Testimonial
+	=========================================================== */
+#testimonial {
+	background: #f8f8f8;
+}
+
+.clients {
+	margin-bottom: 35px;
+}
+
+.clients li {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#owl-testimonial .item {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#owl-testimonial .item .testimonial-text {
+	font-size: 18px;
+}
+
+#owl-testimonial .item .testimonial-author {
+	font-size: 20px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	background: #dddddd;
+	opacity: 1;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: #c0301c;
+}
+
+/*	===========================================================
+	10. Contact
+	=========================================================== */
+.address {
+	margin-bottom: 32px;
+}
+
+.address:last-child {
+	margin-bottom: 0;
+}
+
+.address-title {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.address-title i {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.address-content {
+	line-height: 20px;
+	margin-left: 30px;
+}
+
+.st-form input, .st-form textarea {
+	padding: 15px;
+	border-radius: 0;
+	border: 1px solid #555;
+
+}
+
+.st-form input:focus, .st-form textarea:focus {
+	border: 2px solid #555;
+	box-shadow: none;
+	padding: 14px;
+}
+.form-group {
+	margin-bottom: 20px;
+}
+.btn-send {
+	border: 1px solid #555;
+	border-radius: 0;
+	height: 45px;
+	width: 170px;
+}
+.btn-send:hover {
+	background: #c0301c;
+	color: #fff;
+	border-color: #c0301c;
+}
+
+.form-control {
+	height: 45px;
+	padding: 15px;
+	font-size: 12px;
+}
+
+/*	===========================================================
+	11. Footer
+	=========================================================== */
+
+#footer {
+	background: black;
+	color: #fff;
+	padding: 100px 0 80px;
+}
+
+#footer a {
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.social a {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+
+#footer .social a:hover {
+	background-color: #fff;
+	color: black;
+}
+
+.social i {
+	font-size: 17px;
+	line-height: 38px;
+}
