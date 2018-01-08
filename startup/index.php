@@ -75,27 +75,92 @@ include 'header.html';
             <div class="row ">
         			<div class="col-sm-12">
         				<ul class="list-inline clients">
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/deorham.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/mmedia.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/ratings.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/wopify.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/bcause.png" alt=""></li>
+        					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/3ds.png" alt=""></li>
+        					<li data-sr='enter top, wait 0.2s'><img src="aaffiliations/oncampus/aguaclara.png" alt=""></li>
+        					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/alche.jpg" alt=""></li>
+        					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/alternativebreaks.png" alt=""></li>
+        					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/animationclub.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/aoe.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/apo.jpeg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/axd.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/baja.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/biofoundry.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/bmes.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/campkesem.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/capsu.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/ceme.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/cluboftaiwan.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/cornellcuprobotics.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/creativecomputingclub.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/csa.jpeg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/curb.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/dailysun.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/dancesport.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/dti.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/e.motion.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/engagedcornell.png" alt=""></li>
+                </ul>
+        			</div>
+        		</div>
+					</div>
+          <div class="item">
+            <h3>On-Campus Organizations</h3>
+            <div class="row ">
+        			<div class="col-sm-12">
+        				<ul class="list-inline clients">
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/engineeringpeeradvisors.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/foodrecovery.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/globalmed.jpeg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/igem.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/issa.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/kpl.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/ksa.jpeg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/loko.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/mcsa.jpeg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/pianosociety.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/projecthope.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/psp.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/sase.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/scientista.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/synchronizedskating.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/ukuleleclub.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/wicc.png" alt=""></li>
         				</ul>
         			</div>
         		</div>
 					</div>
 					<div class="item">
-            <h3>Employers</h3>
+            <h3>Employers and Research</h3>
 
 
             <div class="row ">
         			<div class="col-sm-12">
         				<ul class="list-inline clients">
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/deorham.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/mmedia.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/ratings.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/wopify.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="assets/images/bcause.png" alt=""></li>
+        					<li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/accenture.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/alliedfoamtech.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/askapplications.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/builtbygirls.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/collegevine.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/cubist.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/danafarber.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/equalemployment.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/gartner.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/genspace.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/girlswhocode.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/imperialcollege.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/johndeere.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/ncste.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/nwci.jpeg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/oath.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/panopath.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/pingry.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/santaclara.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/seouluniversity.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/solvay.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/stonybrookuniversity.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/templeuniversity.png" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/thermofisher.jpg" alt=""></li>
+                  <li data-sr='enter top, wait 0.2s'><img src="affiliations/employers/universityofminnesota.jpg" alt=""></li>
         				</ul>
         			</div>
         		</div>
