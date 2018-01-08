@@ -1093,7 +1093,6 @@ section {
 	=========================================================== */
 
 #home {
-	background-image: url(assets/images/home_bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -1396,6 +1395,11 @@ a.btn-view {
 	margin: 10px;
 }
 
+.ch-grid h3 {
+	padding: 70px 0px;
+	align: center;
+}
+
 .linkedin {
 	cursor: pointer;
 }
@@ -1549,7 +1553,6 @@ a.btn-view {
 	font-style: italic;
 	margin: 0 30px;
 	font-size: 14px;
-	border-top: 1px solid rgba(255,255,255,0.5);
 }
 
 .ch-info p a {
@@ -1665,7 +1668,7 @@ a.btn-view {
 /*	===========================================================
 	09. Testimonial
 	=========================================================== */
-#testimonial {
+#affiliations {
 	background: #f8f8f8;
 }
 
