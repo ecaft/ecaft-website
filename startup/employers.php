@@ -116,7 +116,8 @@ include 'header.html';
 						<div class="text-center">
 							<p>ECAFT CAREER FAIR 2018 [February 7, 2018]</p>
 							<p>Attn: George Wood</p>
-							<p>21 Dutch Mill Road</p>
+							<p>Cornell Recycle Center</p>
+							<p>251 Solidage Rd.</p>
 							<p>Ithaca, NY 14850</p>
 						</div>
 						<p><b>IMPORTANT NOTE: Please write 2018 Spring Engineering and Technical Career Fair on all your packages. This will ensure that all packages are directed to the correct storage facility. The COMPANY NAME and CAREER FAIR DATE must also be included on each piece. We use the information marked on the outside of your package to locate packages and to ensure that materials are delivered to the correct booth, and for the correct event. We suggest packing return shipping labels in boxes. Packages will be delivered to Barton Hall by 7:00am the day of the fair.</b></p>
