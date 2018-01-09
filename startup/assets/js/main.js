@@ -78,6 +78,15 @@
                 return false;
             });
 
+            var $container = $('.employers-area');
+            $container.isotope({
+                filter: '.welcome',
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
 
 
 

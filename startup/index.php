@@ -4,7 +4,6 @@ include 'header.html';
 
 ?>
 
-<!--/SLIDER SECTION -->
 <section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/home-bg.png);">
 
 	<div class="home-overlay"></div>
@@ -19,12 +18,12 @@ include 'header.html';
 
 					<div class="wow fadeInDown" data-wow-delay="0.3s">
             <div class="col-sm-6 text-center">
-              <a class="btn btn-action" href="#"
+              <a class="btn btn-action" href="students.php"
   						   role="button">For Students
   						</a>
             </div>
             <div class="col-sm-6 text-center">
-              <a class="btn btn-action" href="#"
+              <a class="btn btn-action" href="employers.php"
   						   role="button">For Employers
   						</a>
             </div>
@@ -722,9 +721,6 @@ include 'header.html';
 		</div>
 	</div>
 </section>
-
-
-<!-- / Testimonial-->
 
 <?
 
