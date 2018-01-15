@@ -48,14 +48,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: 'Roboto Slab', serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
 
 body {
 	margin: 0;
-	font-family: 'Roboto Slab', serif;
 	line-height: 24px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -276,13 +274,33 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+@font-face {
+    font-family: 'BikoReg';
+    src: url('assets/fonts/Biko_Regular.otf');
+}
+
+@font-face {
+    font-family: 'BikoBlack';
+    src: url('assets/fonts/Biko_Black.otf');
+}
+
+@font-face {
+    font-family: 'BikoLight';
+    src: url('assets/fonts/Biko_Light-Restricted.otf');
+}
+
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
 body,
 button,
 input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1.5;
@@ -294,12 +312,12 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "BikoBlack";
 	clear: both;
 }
 
 p {
-	font-family: 'Roboto Slab', serif;
+	font-family: "BikoReg";
 	font-size: 14px;
 }
 
@@ -320,7 +338,6 @@ address {
 
 pre {
 	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -334,7 +351,6 @@ code,
 kbd,
 tt,
 var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -1017,7 +1033,6 @@ section {
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	text-transform: capitalize;
-	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -1321,7 +1336,6 @@ section {
 }
 
 a.btn-view {
-	font-family: 'Roboto Slab', serif;
 	text-align: left;
 	padding-left: 26px;
 	font-size: 14px;
@@ -1521,13 +1535,11 @@ a.btn-view {
 .team_name {
 	text-align: center;
 	font-size: 30px;
-	font-family: 'BikoReg';
 }
 
 #team_title {
 	text-align: center;
 	font-size: 40px;
-	font-family: 'BikoReg';
 }
 
 .ch-info h3 {
@@ -1540,7 +1552,6 @@ a.btn-view {
 	/*padding: 20px 0 0 0;*/
 	height: 50px;
 	/*height: 30px*/;
-	font-family: 'Open Sans', Arial, sans-serif;
 	text-shadow:
 		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
@@ -1565,7 +1576,6 @@ a.btn-view {
 	font-size: 9px;
 	letter-spacing: 1px;
 	padding-top: 4px;
-	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .ch-info p a:hover {
@@ -1610,7 +1620,6 @@ a.btn-view {
 .action-title {
 	font-size: 30px;
 	color: #fff;
-	font-family: 'Roboto Slab', serif;
 	line-height: 44px;
 	margin-top: 0;
 }

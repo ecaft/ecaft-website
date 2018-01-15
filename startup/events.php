@@ -15,7 +15,7 @@ include 'header.html';
 					<h1 class="home-title wow fadeInDown">Upcoming Events</h1>
 
 					<div class="wow fadeInDown" data-wow-delay="0.3s">
-						<a class="btn btn-action" href="#"
+						<a class="btn btn-action" href="#recent-posts"
 						   role="button"><img src="assets/images/down.png" height="40px" width="40px">
 						</a>
 					</div>
@@ -33,7 +33,7 @@ include 'header.html';
 			<div class="col-sm-12 text-center">
 				<h1 class="section-title">EVENTS</h1>
 
-				<p class="sec-subtitle"><b>Connect with Cornell Engineering Talent: February 6-19, 2018</b><br>Register now for our February career fair and join us for these other exciting events.</p>
+				<p class="sec-subtitle"><b>Connect with Cornell Engineering Talent: February 6-9, 2018</b><br>Register now for our February career fair and join us for these other exciting events.</p>
 			</div>
 		</div>
 		<div class="posts-area"  data-sr="enter left, hustle 60px">
@@ -116,6 +116,156 @@ include 'header.html';
 		</div>
 	</div>
 </section>
+
+<!--FOR WHEN WE HAVE IMAGES ASSOCIATED WITH EVENTS-->
+<!--<section id="latest-works">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h1 class="section-title">Latest Works</h1>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="works-category"  data-sr='enter top, wait 0.2s'>
+				<ul class=" list-inline">
+					<li><a href="#" data-filter="*" class="current">All</a></li>
+					<li><a href="#" data-filter=".branding">Branding</a></li>
+					<li><a href="#" data-filter=".design">Design</a></li>
+					<li><a href="#" data-filter=".development">Development</a></li>
+					<li><a href="#" data-filter=".strategy">Strategy</a></li>
+				</ul>
+			</div>
+			<div class="works-area" >
+				<div class="col-md-4 col-sm-6 col-xs-12  branding"  >
+					<div class="works">
+						<img src="assets/images/work1.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Branding</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 design" >
+					<div class="works">
+						<img src="assets/images/work2.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Design</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 development" >
+					<div class="works">
+						<img src="assets/images/work3.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Development</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 design" >
+					<div class="works">
+						<img src="assets/images/work4.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Design</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 strategy" >
+					<div class="works">
+						<img src="assets/images/work5.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Strategy</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 branding design" >
+					<div class="works">
+						<img src="assets/images/work6.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Branding</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 strategy" >
+					<div class="works">
+						<img src="assets/images/work7.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Strategy</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 development" >
+					<div class="works">
+						<img src="assets/images/work8.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Development</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 branding" >
+					<div class="works">
+						<img src="assets/images/work9.png" alt="">
+
+						<div class="work-overlay text-center">
+							<div class="overlay-caption">
+								<h4>Hair Dresser</h4>
+
+								<p>Branding</p>
+								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>-->
 
 <?
 

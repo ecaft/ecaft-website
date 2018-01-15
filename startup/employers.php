@@ -15,7 +15,7 @@ include 'header.html';
 					<h1 class="home-title wow fadeInDown">Welcome Employers!</h1>
 
 					<div class="wow fadeInDown" data-wow-delay="0.3s">
-						<a class="btn btn-action" href="#"
+						<a class="btn btn-action" href="#latest-works"
 						   role="button"><img src="assets/images/down.png" height="40px" width="40px">
 						</a>
 					</div>
@@ -31,7 +31,7 @@ include 'header.html';
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h1 class="section-title">Latest Works</h1>
+				<h1 class="section-title">Important Information</h1>
 			</div>
 		</div>
 		<div class="row">
