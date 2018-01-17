@@ -318,7 +318,7 @@ h6 {
 
 p {
 	font-family: "BikoReg";
-	font-size: 14px;
+	font-size: 16px;
 }
 
 dfn,
@@ -939,7 +939,6 @@ a:focus {
 section {
 	padding-top: 97px;
 	padding-bottom: 100px;
-	height:auto;
 }
 
 .sec-subtitle {
@@ -954,7 +953,7 @@ section {
 
 .section-title,
 .title-small {
-	font-size: 20px;
+	font-size: 36px;
 }
 
 .section-title {
@@ -980,6 +979,7 @@ section {
 	border: 2px solid #fff;
 	color: #fff;
 	margin-top: 27px;
+	margin-bottom: 27px;
 	font-size: 18px;
 	padding: 10px 30px;
 	-webkit-border-radius: 2px;
@@ -1023,6 +1023,10 @@ section {
 	transition: all 0.8s;
 }
 
+.header .title {
+	color: #D3D3D3;
+}
+
 .navbar-default {
 	background: none;
 	border:none;
@@ -1034,6 +1038,8 @@ section {
 	color: #fff;
 	text-transform: capitalize;
 	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: 16px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -1113,6 +1119,7 @@ section {
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #464646;
+	height:33%;
 
 	position: relative;
 	display: flex;
@@ -1135,7 +1142,7 @@ section {
 }
 
 .home-title {
-	font-size: 48px;
+	font-size: 60px;
 	margin-bottom: 16px;
 }
 
@@ -1165,6 +1172,10 @@ section {
 .service:hover .service-icon {
 	background: #c0301c;
 	color: #fff;
+}
+
+#services, #team, #latest-works {
+	background: #f8f8f8;
 }
 
 /*	===========================================================
@@ -1621,7 +1632,6 @@ a.btn-view {
 	font-size: 30px;
 	color: #fff;
 	line-height: 44px;
-	margin-top: 0;
 }
 /*	===========================================================
 	08. Recent Posts
@@ -1678,7 +1688,7 @@ a.btn-view {
 	09. Testimonial
 	=========================================================== */
 #affiliations {
-	background: #f8f8f8;
+	background: white;
 }
 
 .clients {

@@ -4,7 +4,7 @@ include 'header.html';
 
 ?>
 
-<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/employers-bg.png);">
+<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/employers-bg.jpg);">
 
 	<div class="home-overlay"></div>
 
@@ -15,8 +15,8 @@ include 'header.html';
 					<h1 class="home-title wow fadeInDown">Welcome Employers!</h1>
 
 					<div class="wow fadeInDown" data-wow-delay="0.3s">
-						<a class="btn btn-action" href="#latest-works"
-						   role="button"><img src="assets/images/down.png" height="40px" width="40px">
+						<a data-scroll class="btn btn-action" href="https://app.joinhandshake.com/career_fairs/3329/employer_preview"
+						   role="button">All Companies Register Here
 						</a>
 					</div>
 				</div>
@@ -49,7 +49,7 @@ include 'header.html';
 			<div class="employers-area" style="align:left;">
 				<div class="col-sm-12  welcome" >
 					<div class="works">
-						<p>WELCOME SECTION</p>
+						<p>The Cornell Engineering Career Fair Team welcomes you to Cornell! We hope you find your visit enjoyable. Please feel free to reach out to us at <a href="mailto:ecaft@cornell.edu">ecaft@cornell.edu</a> if you have any questions.</p>
 					</div>
 				</div>
 				<div class="col-sm-12  day-of" >
@@ -130,13 +130,25 @@ include 'header.html';
 	</div>
 </section>
 
+<section id="get-in-touch">
+	<div class="action-overlay"></div>
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-sm-12"   data-sr="enter top, hustle 60px">
+				<h1 class="action-title">Connect with Cornell Engineering Talent: February 6-9, 2018</h1>
+				<a href="https://app.joinhandshake.com/career_fairs/3329/employer_preview" class="btn btn-action">Register Now</a>
+				<br>
+				<h2 class="action-title">Register now for our February career fair and join us for these other exciting events.</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section id="recent-posts">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<h1 class="section-title">EVENTS</h1>
-
-				<p class="sec-subtitle"><b>Connect with Cornell Engineering Talent: February 6-19, 2018</b><br>Register now for our February career fair and join us for these other exciting events.</p>
 			</div>
 		</div>
 		<div class="posts-area"  data-sr="enter left, hustle 60px">

@@ -4,7 +4,7 @@ include 'header.html';
 
 ?>
 
-<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/home-bg.png);">
+<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/home-bg.jpg);">
 
 	<div class="home-overlay"></div>
 
@@ -15,7 +15,7 @@ include 'header.html';
 					<h1 class="home-title wow fadeInDown">Join ECAFT</h1>
 
 					<div class="wow fadeInDown" data-wow-delay="0.3s">
-						<a class="btn btn-action" href="#services"
+						<a data-scroll class="btn btn-action" href="#services"
 						   role="button"><img src="assets/images/down.png" height="40px" width="40px">
 						</a>
 					</div>

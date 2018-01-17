@@ -4,7 +4,7 @@ include 'header.html';
 
 ?>
 
-<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/students-bg.png);">
+<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/students-bg.jpg);">
 
 	<div class="home-overlay"></div>
 
@@ -15,7 +15,7 @@ include 'header.html';
 					<h1 class="home-title wow fadeInDown">Welcome Students!</h1>
 
 					<div class="wow fadeInDown" data-wow-delay="0.3s">
-						<a class="btn btn-action" href="#latest-works"
+						<a data-scroll class="btn btn-action" href="#latest-works"
 						   role="button"><img src="assets/images/down.png" height="40px" width="40px">
 						</a>
 					</div>
@@ -45,7 +45,7 @@ include 'header.html';
 			<div class="employers-area" style="align:left;">
 				<div class="col-sm-12  welcome" >
 					<div class="works">
-						<p>WELCOME SECTION</p>
+						<p>Whether it's your first time at the career fair (Hello Freshmen!) or your last time at the career fair (Goodbye Seniors!), we hope you're excited to join us at our annual Engineering Spring Career Fair! Please reach out to us at <a href="mailto:ecaft@cornell.edu">ecaft@cornell.edu</a> if you have any questions before the career fair.</p>
 					</div>
 				</div>
 				<div class="col-sm-12 what-to-bring">

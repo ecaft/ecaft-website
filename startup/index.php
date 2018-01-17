@@ -4,7 +4,7 @@ include 'header.html';
 
 ?>
 
-<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/home-bg.png);">
+<section id="home" class="sliderwrapper clearfix" style="	background-image: url(assets/images/home-bg.jpg);">
 
 	<div class="home-overlay"></div>
 
@@ -18,12 +18,12 @@ include 'header.html';
 
 					<div class="wow fadeInDown" data-wow-delay="0.3s">
             <div class="col-sm-6 text-center">
-              <a class="btn btn-action" href="students.php"
+              <a data-scroll class="btn btn-action" href="students.php"
   						   role="button">For Students
   						</a>
             </div>
             <div class="col-sm-6 text-center">
-              <a class="btn btn-action" href="employers.php"
+              <a data-scroll class="btn btn-action" href="employers.php"
   						   role="button">For Employers
   						</a>
             </div>
@@ -38,27 +38,29 @@ include 'header.html';
 
 <section id="services">
 	<div class="container">
-		<div class="row ">
+		<div class="row text">
 			<div class="col-sm-12 text-center">
 				<h2 class="section-title">We run the SPRING career fair</h2>
 				<p class="sec-subtitle">Our goal is to empower and engage the Cornell community by conecting employers
            to students and improving students' professional development skills through our
            workshops, career fair prep events, and outreach events.</p>
       </div>
-      <div class="col-sm-6">
-          <h3>Professional Development</h3>
+			<div class="col-sm-2"></div>
+      <div class="col-sm-4">
+          <h3 class="text-center">Professional Development</h3>
           <ul>
               <li><p>Spring Engineering Career Fair</p></li>
               <li><p>Resume Review</p></li>
           </ul>
       </div>
-      <div class="col-sm-6">
-        <h3>Community Engagement</h3>
+      <div class="col-sm-4">
+        <h3 class="text-center">Community Engagement</h3>
         <ul>
           <li><p>Headshot Campaign</p></li>
           <li><p>Project Team Fest</p></li>
         </ul>
       </div>
+			<div class="col-sm-2"></div>
 		</div>
 	</div>
 </section>
