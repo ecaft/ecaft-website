@@ -379,8 +379,8 @@ include 'header.html';
 	                  <a class="mail" href="mailto:cac468@cornell.edu" target="_blank"><img src="assets/images/email.png" height="40" width="40" alt="mail"></a>
 	                </div>
 	              </div>
+								</div>
 	              <h3>Corson Chao</h3>
-	          </div>
 	        </li>
 	        <li>
 	          <div class="ch-item">
