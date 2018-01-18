@@ -52,15 +52,6 @@
 
             //  isoTop
             //==============================
-            var $container = $('.works-area');
-            $container.isotope({
-                filter: '.tech',
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
 
             $('.works-category li a').click(function () {
                 $('.works-category .current').removeClass('current');
