@@ -56,7 +56,6 @@ include 'header.html';
 				</div>
 			</div>
 		</div>
-		<h2>Featured Student Groups</h2>
 		<div class="posts-area"  data-sr="enter left, hustle 60px">
 			<div class="row">
 				<div class="col-sm-12 post-content">
@@ -114,158 +113,68 @@ include 'header.html';
 				</div>
 			</div>
 		</div>
+		<div class="posts-area"  data-sr="enter left, hustle 60px">
+			<div class="row">
+				<div class="col-sm-12 post-content">
+					<div class="post-header clearfix">
+						<div class="post-title pull-left">
+							<h4><b>CORNELL SOCIETY OF WOMEN ENGINEERS NETWORKING DINNER</b></h4>
+							<h4>Tuesday, February 6, 7:30 – 9:30 p.m.</h4>
+						</div>
+					</div>
+					<div class="post-body clearfix">
+						<p>Register in advance</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="posts-area"  data-sr="enter left, hustle 60px">
+			<div class="row">
+				<div class="col-sm-12 post-content">
+					<div class="post-header clearfix">
+						<div class="post-title pull-left">
+							<h4><b>ENGINEERING & TECHNICAL FAIR</b></h4>
+							<h4>February 7, 9:00 a.m. – 2:00 p.m., Barton Hall</h4>
+						</div>
+					</div>
+					<div class="post-body clearfix">
+						<p><a href="https://app.joinhandshake.com/career_fairs/3329/employer_preview">Register in advance</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="posts-area"  data-sr="enter left, hustle 60px">
+			<div class="row">
+				<div class="col-sm-12 post-content">
+					<div class="post-header clearfix">
+						<div class="post-title pull-left">
+							<h4><b>CO-OP NETWORKING EVENT</b></h4>
+							<h4>Wednesday, February 7, 4:30 – 6:00 p.m., Statler Ballroom</h4>
+						</div>
+					</div>
+					<div class="post-body clearfix">
+						<p>This is an exclusive event for employers with positions posted through our Engineering Co-op Program to network with Co-op candidates. If you are interested in participating in our Engineering Co-op Program, please contact Julie Wright @ <a href="mailto:engr_coop@cornell.edu">Engr_coop@cornell.edu</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="posts-area"  data-sr="enter left, hustle 60px">
+			<div class="row">
+				<div class="col-sm-12 post-content">
+					<div class="post-header clearfix">
+						<div class="post-title pull-left">
+							<h4><b>ON-CAMPUS INTERVIEW SCHEDULES</b></h4>
+							<h4>Thursday and Friday, January 8 & 9, 8:30 – 4:30 p.m.</h4>
+						</div>
+					</div>
+					<div class="post-body clearfix">
+						<p>Limited space is available to interview students in the two days following the fair. Request a room today.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
-
-<!--FOR WHEN WE HAVE IMAGES ASSOCIATED WITH EVENTS-->
-<!--<section id="latest-works">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 text-center">
-				<h1 class="section-title">Latest Works</h1>
-			</div>
-		</div>
-		<div class="row text-center">
-			<div class="works-category"  data-sr='enter top, wait 0.2s'>
-				<ul class=" list-inline">
-					<li><a href="#" data-filter="*" class="current">All</a></li>
-					<li><a href="#" data-filter=".branding">Branding</a></li>
-					<li><a href="#" data-filter=".design">Design</a></li>
-					<li><a href="#" data-filter=".development">Development</a></li>
-					<li><a href="#" data-filter=".strategy">Strategy</a></li>
-				</ul>
-			</div>
-			<div class="works-area" >
-				<div class="col-md-4 col-sm-6 col-xs-12  branding"  >
-					<div class="works">
-						<img src="assets/images/work1.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Branding</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 design" >
-					<div class="works">
-						<img src="assets/images/work2.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Design</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 development" >
-					<div class="works">
-						<img src="assets/images/work3.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Development</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 design" >
-					<div class="works">
-						<img src="assets/images/work4.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Design</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 strategy" >
-					<div class="works">
-						<img src="assets/images/work5.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Strategy</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 branding design" >
-					<div class="works">
-						<img src="assets/images/work6.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Branding</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 strategy" >
-					<div class="works">
-						<img src="assets/images/work7.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Strategy</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 development" >
-					<div class="works">
-						<img src="assets/images/work8.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Development</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 branding" >
-					<div class="works">
-						<img src="assets/images/work9.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Hair Dresser</h4>
-
-								<p>Branding</p>
-								<a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>-->
 
 <?
 
