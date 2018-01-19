@@ -77,7 +77,7 @@ include 'header.html';
         			<div class="col-sm-12">
         				<ul class="list-inline clients">
         					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/3ds.png" alt=""></li>
-        					<li data-sr='enter top, wait 0.2s'><img src="aaffiliations/oncampus/aguaclara.png" alt=""></li>
+        					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/aguaclara.png" alt=""></li>
         					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/alche.jpg" alt=""></li>
         					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/alternativebreaks.png" alt=""></li>
         					<li data-sr='enter top, wait 0.2s'><img src="affiliations/oncampus/animationclub.png" alt=""></li>
@@ -313,7 +313,6 @@ include 'header.html';
 	          <div class="ch-item">
 	              <div class="ch-info">
 	                <div style="background-image: url(../headshots/jannieli.jpg); background-size: 250px"></div>
-	                <div style="background-image: url(../headshots/jannie_li.jpg); background-size: 250px"></div>
 	                <div class="ch-info-back">
 	                  <p>Information Science '21</p>
 	                  <p>Officer</p>
@@ -446,7 +445,6 @@ include 'header.html';
 	          <div class="ch-item">
 	              <div class="ch-info">
 	                <div style="background-image: url(../headshots/gracezhang.jpg); background-size: 250px"></div>
-	                <div style="background-image: url(../headshots/grace_zhang.jpg); background-size: 250px"></div>
 	                <div class="ch-info-back">
 	                  <p>Environmental Engineering '20</p>
 	                  <p>Director</p>
@@ -475,7 +473,6 @@ include 'header.html';
 	          <div class="ch-item">
 	              <div class="ch-info">
 	                <div style="background-image: url(../headshots/laurenslowskei.jpg); background-size: 250px"></div>
-	                <div style="background-image: url(../headshots/lauren_slowskei.jpg); background-size: 250px"></div>
 	                <div class="ch-info-back">
 	                  <p>Biological Engineering '19</p>
 	                  <p>Officer</p>
@@ -504,7 +501,6 @@ include 'header.html';
 	          <div class="ch-item">
 	              <div class="ch-info">
 	                <div style="background-image: url(../headshots/jeremywang.jpg); background-size: 250px"></div>
-	                <div style="background-image: url(../headshots/jeremy_wang.jpg); background-size: 250px"></div>
 	                <div class="ch-info-back">
 	                  <p>Biological Engineering '21</p>
 	                  <p>Officer</p>
@@ -591,7 +587,6 @@ include 'header.html';
 	          <div class="ch-item">
 	              <div class="ch-info">
 	                <div style="background-image: url(../headshots/ryankim.jpg); background-size: 250px"></div>
-	                <div style="background-image: url(../headshots/ryan_kim.jpg); background-size: 250px"></div>
 	                <div class="ch-info-back">
 	                  <p>Information Science '18</p>
 	                  <p>Officer</p>
@@ -606,7 +601,6 @@ include 'header.html';
 	          <div class="ch-item">
 	              <div class="ch-info">
 	                <div style="background-image: url(../headshots/sherryxie.jpg); background-size: 250px"></div>
-	                <div style="background-image: url(../headshots/sherry_xie.jpg); background-size: 250px"></div>
 	                <div class="ch-info-back">
 	                  <p>Computer Science '20</p>
 	                  <p>Officer</p>
@@ -665,7 +659,6 @@ include 'header.html';
 	          <div class="ch-item">
 	              <div class="ch-info">
 	                <div style="background-image: url(../headshots/janetkim.jpg); background-size: 250px"></div>
-	                <div style="background-image: url(../headshots/janet_kim.jpg); background-size: 250px"></div>
 	                <div class="ch-info-back">
 	                  <p>ILR '19</p>
 	                  <p>Director</p>
