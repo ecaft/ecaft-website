@@ -117,13 +117,18 @@ include 'header.html';
 			<div class="row">
 				<div class="col-sm-12 post-content">
 					<div class="post-header clearfix">
+						<div class="post-date pull-left">
+							<h1>6</h1>
+
+							<p>FEB</p>
+						</div>
 						<div class="post-title pull-left">
 							<h4><b>CORNELL SOCIETY OF WOMEN ENGINEERS NETWORKING DINNER</b></h4>
 							<h4>Tuesday, February 6, 7:30 – 9:30 p.m.</h4>
 						</div>
 					</div>
 					<div class="post-body clearfix">
-						<p>Register in advance</p>
+						<p>The Cornell Society of Women Engineers will be hosting the Spring 2018 Professional Networking Dinner. Your representatives will be presented with an opportunity to meet and speak to our Undergraduate, Master's and Ph.D. students in this unique networking opportunity. The event will be held on Tuesday, February 6th at The Statler Hotel Grand Ballroom, the evening before the Career Fair.<a href="http://www.swe.cornell.edu/pnd.asp">Register in advance.</a></p>
 					</div>
 				</div>
 			</div>
@@ -132,6 +137,11 @@ include 'header.html';
 			<div class="row">
 				<div class="col-sm-12 post-content">
 					<div class="post-header clearfix">
+						<div class="post-date pull-left">
+							<h1>7</h1>
+
+							<p>FEB</p>
+						</div>
 						<div class="post-title pull-left">
 							<h4><b>ENGINEERING & TECHNICAL FAIR</b></h4>
 							<h4>February 7, 9:00 a.m. – 2:00 p.m., Barton Hall</h4>
@@ -147,6 +157,11 @@ include 'header.html';
 			<div class="row">
 				<div class="col-sm-12 post-content">
 					<div class="post-header clearfix">
+						<div class="post-date pull-left">
+							<h1>7</h1>
+
+							<p>FEB</p>
+						</div>
 						<div class="post-title pull-left">
 							<h4><b>CO-OP NETWORKING EVENT</b></h4>
 							<h4>Wednesday, February 7, 4:30 – 6:00 p.m., Statler Ballroom</h4>
@@ -162,13 +177,18 @@ include 'header.html';
 			<div class="row">
 				<div class="col-sm-12 post-content">
 					<div class="post-header clearfix">
+						<div class="post-date pull-left">
+							<h1>8-9</h1>
+
+							<p>FEB</p>
+						</div>
 						<div class="post-title pull-left">
 							<h4><b>ON-CAMPUS INTERVIEW SCHEDULES</b></h4>
-							<h4>Thursday and Friday, January 8 & 9, 8:30 – 4:30 p.m.</h4>
+							<h4>Thursday and Friday, February 8 & 9, 8:30 – 4:30 p.m.</h4>
 						</div>
 					</div>
 					<div class="post-body clearfix">
-						<p>Limited space is available to interview students in the two days following the fair. Request a room today.</p>
+						<p>Limited space is available to interview students in the two days following the fair. <a href="https://www.engineering.cornell.edu/industry-partners/campus-recruiting-industry-partners/campus-interviews">Request a room today.</a></p>
 					</div>
 				</div>
 			</div>
