@@ -47,11 +47,12 @@ include 'header.html';
 						</div>
 						<div class="post-title pull-left">
 							<h4><b>CORNELL ENGINEERING PROJECT SHOWCASE</b></h4>
-							<h4>Tuesday, February 6, 5:00 - 7:00 p.m., No advance registration needed</h4>
+							<h4>Tuesday, February 6, 5:00 - 7:00 p.m.</h4>
 						</div>
 					</div>
 					<div class="post-body clearfix">
-						<p>Cornell Engineering students are working on creative solutions to a variety of engineering challenges. The Project Showcase is an opportunity to both see what these teams have been working on and to meet their members. From nanotechnology to water quality and from pharmaceuticals to semiconductors to robots, Cornell Engineering students are making valuable contributions to solving the challenges of our world.</p>
+						<p>Cornell Engineering students are working on creative solutions to a variety of engineering challenges. The Project Showcase is an opportunity to both see what these teams have been working on and to meet their members. From nanotechnology to water quality and from pharmaceuticals to semiconductors to robots, Cornell Engineering students are making valuable contributions to solving the challenges of our world. <a href="[]
+https://goo.gl/forms/vdZscooTYRC54i5h1">Register in advance.</a></p>
 					</div>
 				</div>
 			</div>
