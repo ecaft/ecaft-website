@@ -128,7 +128,7 @@ include 'header.html';
 						</div>
 					</div>
 					<div class="post-body clearfix">
-						<p>The Cornell Society of Women Engineers will be hosting the Spring 2018 Professional Networking Dinner. Your representatives will be presented with an opportunity to meet and speak to our Undergraduate, Master's and Ph.D. students in this unique networking opportunity. The event will be held on Tuesday, February 6th at The Statler Hotel Grand Ballroom, the evening before the Career Fair.<a href="http://www.swe.cornell.edu/pnd.asp">Register in advance.</a></p>
+						<p>The Cornell Society of Women Engineers will be hosting the Spring 2018 Professional Networking Dinner. Your representatives will be presented with an opportunity to meet and speak to our Undergraduate, Master's and Ph.D. students in this unique networking opportunity. The event will be held on Tuesday, February 6th at The Statler Hotel Grand Ballroom, the evening before the Career Fair.<a href="http://www.swe.cornell.edu/pnd.asp"> Register in advance.</a></p>
 					</div>
 				</div>
 			</div>
