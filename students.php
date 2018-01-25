@@ -65,15 +65,22 @@ include 'header.html';
 							of employers. The formality of students’ attire can vary based on the type of companies that they approach.
 							Tech and Engineering companies tend to be more casual than Finance and Law companies.</p>
 
-							<h3>Finance and Law Companies:</h3>
-							<p><b>The following are recommended:</b>
+							<p><b>The following are recommended for men:</b>
 								<ul>
 									<li><p>Dress shirt</p></p></li>
 									<li><p>Slacks/Trousers/Dress pants</p></li>
 									<li><p>Dress shoes</p></li>
-									<li><p>Blazer/Suit jacket</p></li>
-									<li><p>Sweater</p></li>
-									<li><p>Tie</p></li>
+									<li><p>Blazer/Suit jacket (optional)</p></li>
+									<li><p>Sweater (optional)</p></li>
+									<li><p>Tie (optional)</p></li>
+								</ul>
+							</p>
+							<p><b>The following are recommended for women:</b>
+								<ul>
+									<li>Dress shirt/blouse</li>
+									<li>Pumps with low/medium heels</li>
+									<li>Slacks/Trousers/Dress pants</li>
+									<li>Two-piece suit (optional)</li>
 								</ul>
 							</p>
 							<p><b>The following are not recommended:</b>
@@ -82,30 +89,6 @@ include 'header.html';
 									<li><p>Sneakers, boots, or sandals</p></li>
 									<li><p>Piercings on ear, nose, lip, etc.</p></li>
 									<li><p>Jeans, shorts, baggy pants</p></li>
-								</ul>
-							</p>
-							<h3>Tech and Engineering Companies:</h3>
-							<p><b>The following are recommended:</b>
-								<ul>
-									<li><p>Dress shirt</p></li>
-									<li><p>Slacks/Trousers/Dress pants</p></li>
-									<li><p>Dress shoes</p></li>
-								</ul>
-							</p>
-							<p><b>The following are optional: </b>
-								<ul>
-									<li><p>Blazer/Suit jacket</p></li>
-									<li><p>Sweater</p></li>
-									<li><p>Tie</p></li>
-									<li><p>Jeans</p></li>
-								</ul>
-							</p>
-							<p><b>The following are not recommended:</b>
-								<ul>
-									<li><p>Casual tops (hoodie, common branded sweatshirt, T-shirt)</p></li>
-									<li><p>Sneakers, boots, or sandals</p></li>
-									<li><p>Piercings on ear, nose, lip, etc.</p></li>
-									<li><p>Shorts, baggy pants</p></li>
 								</ul>
 							</p>
 					</div>
