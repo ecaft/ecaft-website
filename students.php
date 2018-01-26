@@ -77,10 +77,10 @@ include 'header.html';
 							</p>
 							<p><b>The following are recommended for women:</b>
 								<ul>
-									<li>Dress shirt/blouse</li>
-									<li>Pumps with low/medium heels</li>
-									<li>Slacks/Trousers/Dress pants</li>
-									<li>Two-piece suit (optional)</li>
+									<li><p>Dress shirt/blouse</p></li>
+									<li><p>Pumps with low/medium heels</p></li>
+									<li><p>Slacks/Trousers/Dress pants</p></li>
+									<li><p>Two-piece suit (optional)</p></li>
 								</ul>
 							</p>
 							<p><b>The following are not recommended:</b>
